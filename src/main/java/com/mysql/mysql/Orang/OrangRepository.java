@@ -1,4 +1,4 @@
-package com.mysql.mysql;
+package com.mysql.mysql.Orang;
 
 import org.springframework.data.repository.CrudRepository;
 
