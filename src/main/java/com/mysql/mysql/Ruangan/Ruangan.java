@@ -11,6 +11,7 @@ public class Ruangan {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id;
+    
     public String kode_ruang;
     public String nama_ruang;
     public int kapasitas;

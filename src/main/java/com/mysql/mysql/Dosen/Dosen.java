@@ -11,6 +11,7 @@ public class Dosen {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id;
+    
     public String nama;
     public String nid;
     public String campus;

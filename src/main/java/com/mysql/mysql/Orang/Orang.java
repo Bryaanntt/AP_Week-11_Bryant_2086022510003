@@ -11,6 +11,7 @@ public class Orang {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id;
+    
     public String nama;
     public String nim;
     public String kelas;

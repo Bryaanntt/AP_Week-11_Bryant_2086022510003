@@ -11,6 +11,7 @@ public class Staff {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id;
+    
     public String nama;
     public String nik;
     public String campus;

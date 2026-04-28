@@ -4,19 +4,22 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "nilai")
 public class Nilai {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int id;
-    public String nim;
-    public String mata_kuliah;
-    public String semester;
-    public double nilai_akhir;
-    public String grade;
-    public String status_lulus; // lulus, tidak lulus
+    private int id;
+    
+    private String nim;
+    private String mata_kuliah;
+    private String semester;
+    private double nilai_akhir;
+    private String grade;
+    private String status_lulus; // lulus, tidak lulus
 
     public Nilai() {}
 

@@ -11,6 +11,7 @@ public class Alumni {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id;
+    
     public String nama;
     public String nim;
     public int angkatan;
